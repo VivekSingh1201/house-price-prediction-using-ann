@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+DLenv/
+DLenv312/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / training outputs
+logs/
+tensorboard/
+*.keras
+*.h5
+*.hdf5
+checkpoints/
+
+# Local machine files
+.DS_Store
+
+# Environment files
+.env
+.env.*
